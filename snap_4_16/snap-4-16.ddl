@@ -1,6 +1,5 @@
 drop table if exists task;
 
-
 create table task(
 taskId binary(20) not null,
 taskTitle varchar(255) not null,
