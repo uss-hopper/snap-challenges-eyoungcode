@@ -1,4 +1,4 @@
 Given Weights:
-set intermediaryVariable to Weights - .0001;
+set intermediaryVariable to Weights = 5;
 set weightGrams to intermediaryVariable * .0001;
 return weightGrams;
