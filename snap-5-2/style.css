@@ -9,6 +9,9 @@ li {
 }
 .container {
 	display: flex;
+	height: 150px;
+	width: 150px;
+	justify-content: flex-start;
 	flex-direction: row;
 }
 
