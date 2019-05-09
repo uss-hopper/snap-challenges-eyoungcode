@@ -1,4 +1,15 @@
-li {
+.my-list {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+
+	display: flex;
+
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+
+.my-item {
 	background: tomato;
 
 	line-height: 150px;
@@ -6,12 +17,10 @@ li {
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
-}
-.container {
-	display: flex;
+
+	width: 200px;
 	height: 150px;
-	width: 150px;
-	justify-content: flex-start;
-	flex-direction: row;
+	padding: 5px;
+	margin-top: 10px;
 }
 
