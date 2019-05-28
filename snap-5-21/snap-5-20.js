@@ -243,3 +243,10 @@ const users = [
 	removeCompany();
 console.table(users);
 
+//diff option
+let updatedArray = array.map(
+(object) => {
+	delete object.company;
+	return object;
+}
+);
