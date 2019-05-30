@@ -1,0 +1,20 @@
+var array1 = ['a', 'e', 'i', 'o, 'u'];
+
+array1.forEach(function(element) {
+console.log(element);
+});
+
+var arr = [2,3,4,10,14];
+var largest = 0;
+
+arr.forEach(function(elem){
+if(largest < elem)
+largest = elem;
+});
+
+console.log(largest);
+
+function F(n) {  if(n == 0) {    return 0;
+}  if(n == 1) {    return 1;
+}  else {    return F(n-1) + F(n-2);
+}}
